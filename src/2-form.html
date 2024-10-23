@@ -9,13 +9,22 @@
   </head>
   <body>
     
-    <h1>hello</h1>
 
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">Form</h1>
       </div>
+      <form class="feedback-form" autocomplete="off">
+        <label for="email">Email </label>
+          <input type="email" name="email" autofocus />
+       
+        <label for="message">Message</label>
+          <textarea name="message" rows="8"></textarea>
+       
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+      
     </main>
 
     <script type="module" src="./js/2-form.js"></script>
